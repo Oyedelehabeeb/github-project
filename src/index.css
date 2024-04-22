@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-repo {
+  margin: auto;
+}
+
+.language-circle {
+  margin-top: 2px;
+}
+
+.user-avatar img {
+  border-radius: 50%;
+}
+
+.repo-details-heading {
+  margin: auto;
+}
+
+.repo-desc {
+  margin: auto;
+  margin-top: 30px;
+}
+
+.cancel-btn {
+  float: right;
+  cursor: pointer;
+  border: 1px solid white;
+  color: black;
+}
+
+/* .search-div{
+  border: 1px green solid;
+} */
+
+.search-input{
+  margin-inline-start: 560px;
+  margin-block-start: 50px;
+ border: 1px solid;
+}
+
+.search-btn{
+  border: 1px solid;
+}
+
+
+.modal-main {
+  position: absolute;
+  left: 300px;
+}
+
+.modal-edit-main {
+  position: absolute;
+  left: 200px;
+}
+
+.repo-title {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.repo-description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-block-start: 50px;
+}
+
+input {
+  padding-inline-start: 15px;
+}
+
+.create-repository-btn{
+  margin-inline-start: 310px;
+  width:150px;
+  cursor: pointer;
+}
+
+.create-repository-btn:hover{
+  text-decoration: underline;
+  color: white;
+  background-color: green;
+}
+
+.cancel-btn{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+
+}
+
+.cancel-btn:hover{
+  text-decoration: underline;
+}
